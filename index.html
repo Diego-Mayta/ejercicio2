@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a5.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="titulo">
+        <h1>verificando la identidad</h1>
+    </header>
+    <p>
+        comprobar la identidad trigonométrica:<br>
+        <br>
+        <br>
+        <img src="formula2.png" width="500px"> <br>
+        <br>
+        <br>
+        para cada parte, verifique que la identidad sea correcta calculando los valores del lado izquierdo y derecho de las ecuacion <br>
+        <br>
+        sustituyendo alfa= &nbsp;----->  &nbsp;&nbsp;&nbsp;&nbsp;0.39269908169872414 <br>
+        <br>
+        y beta=&nbsp;---->&nbsp;&nbsp;&nbsp;&nbsp;0.5235987755982988
+
+    </p>
+    <section>
+        <div class="respuesta"> 
+            <label class="letritas"> introduzca el valor de x :</label>
+            <input type="number" id=a placeholder="valor de alfa, esta arriba">
+            <input type="number" id=b placeholder="valor de beta, esta arriba">
+            <button onclick="identidad()">Calcular</button>
+            <TABLE align="center">
+                <tr>
+                    <td>
+                        <h5 class="letritas">valor de la izquierda :  </h5> 
+                    </td>
+                    <td>
+                        <div class="te" id="identidad"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h5 class="letritas">valor de la derecha :</h5> 
+                    </td>
+                    <td>
+                        <div class="te" id="pi2"></div>
+                    </td>
+                </tr>
+            </TABLE> 
+        </section>
+    <script src="a5.js"></script>
+</body>
+</html>
